@@ -12,7 +12,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <link href="<?= base_url(); ?>/assets/css/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?= base_url(); ?>/assets/css/style.css" rel="stylesheet">
 </head>
@@ -83,7 +83,7 @@
                   <li class="list-group-item">Mobile Friendly</li>
                 </ul>
               <div class="card-body">
-                <a href="https://wa.me/message/NWZAHPLLWVHSL1" target="_blank" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
+                <a href="#Form" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
               </div>
             </div>
           </div>
@@ -108,8 +108,8 @@
                   <li class="list-group-item">Gratis SSL Selamanya</li>
                   <li class="list-group-item">Mobile Friendly</li>
                 </ul>
-              <div class="card-body">
-                <a href="https://wa.me/message/NWZAHPLLWVHSL1" target="_blank" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
+                <div class="card-body">
+                <a href="#Form" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
               </div>
             </div>
           </div>
@@ -134,8 +134,8 @@
                   <li class="list-group-item">Gratis SSL Selamanya</li>
                   <li class="list-group-item">Mobile Friendly</li>
                 </ul>
-              <div class="card-body">
-                <a href="https://wa.me/message/NWZAHPLLWVHSL1" target="_blank" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
+                <div class="card-body">
+                <a href="#Form" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
               </div>
             </div>
           </div>
@@ -160,8 +160,8 @@
                   <li class="list-group-item">Gratis SSL Selamanya</li>
                   <li class="list-group-item">Mobile Friendly</li>
                 </ul>
-              <div class="card-body">
-                <a href="https://wa.me/message/NWZAHPLLWVHSL1" target="_blank" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
+                <div class="card-body">
+                <a href="#Form" class="btn btn-primary rounded-pill my-2 px-4"> Order Sekarang </a>
               </div>
             </div>
           </div>
@@ -219,6 +219,46 @@
         </div><!-- End testimonial-item -->  
       </div>
     </section><!-- End Ulasan Section -->
+
+<!-- ======= Form Section ======= -->
+<section id="Form">
+      <div class="justify-content-center">
+        <div class="section-title">
+          <h2>Form</h2>
+          <h1 class="mt-2">Formulir</h1>
+        </div>
+        <div>
+        <form class="container-sm" method="post">
+          <div class="mt-1 sm">
+            <label for="inputNama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Masukkan Nama">
+          </div>  
+          <div class="mt-3 sm">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Masukkan Email">
+          </div>
+          <div class="mt-3 sm">
+            <label for="inputAddress" class="form-label">Alamat</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Masukkan Alamat">
+          </div>
+          <div class="mt-3 sm">
+            <label for="inputPaket" class="form-label">Paket</label>
+            <select id="inputPaket" class="form-select">
+              <option selected>Pilih Paket</option>
+              <option>Blog Pribadi</option>
+              <option>Website Perusahaan</option>
+              <option>Toko Online</option>
+              <option>Website Donasi</option>
+            </select>
+          </div>
+          <div class="mt-3 text-center">
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+<!-- End Form Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
