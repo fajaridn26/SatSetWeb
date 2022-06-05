@@ -8,4 +8,8 @@ class Home extends BaseController
     {
         return view('home/index');
     }
+
+    public function form(){
+        return model('modelform');        
+    }
 }
