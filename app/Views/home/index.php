@@ -228,7 +228,7 @@
           <h1 class="mt-2">Formulir</h1>
         </div>
         <div>
-        <form action="<?= base_url() ?>" class="container-sm" method="post">
+        <form action="<?= base_url('Home/form') ?>" class="container-sm" method="post">
           <div class="mt-1 sm">
             <label for="inputNama" class="form-label">Nama</label>
             <input type="text" class="form-control" id="inputName" placeholder="Masukkan Nama">
