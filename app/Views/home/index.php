@@ -194,6 +194,7 @@
                   <img src="<?= base_url(); ?>/assets/img/portfolio/portfolio1.png" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Bakery APP</h4>
+                      <a href="https://aplikasibakery.000webhostapp.com/" target="_blank"> <i class="bi bi-link"></i> </a>
                   </div>
                 </div>
               </div><!-- End portfolio item -->
